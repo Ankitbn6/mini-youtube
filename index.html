@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini youtube</title>
+    <link rel="icon" type="image/x-icon" href="https://www.youtube.com/s/desktop/b6935493/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Play&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="logo">
+            <div class="circle" id="horizontal"><img
+                    src="https://cdn.iconscout.com/icon/free/png-512/free-hamburger-126-453141.png?f=avif&w=256" alt="">
+            </div>
+            <div id="ytlogo"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="">
+                <p>Youtube</p>
+            </div>
+        </div>
+        <div id="search">
+            <div>
+                <input id="searchbar" type="text" placeholder="Search">
+                <div id="mag-lens" onclick="showVideos()"><img
+                        src="https://iconape.com/wp-content/png_logo_vector/magnifier.png" alt=""></div>
+            </div>
+            <div id="mic" class="circle"><img src="https://cdn-icons-png.flaticon.com/512/25/25682.png" alt=""></div>
+        </div>
+        <div id="others">
+            <div class="circle"><img
+                    src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3231887/video-add-icon-md.png"
+                    alt=""></div>
+            <div class="circle"><img src="https://cdn-icons-png.flaticon.com/512/3602/3602145.png" alt=""></div>
+            <div id="p-image"><img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt=""></div>
+        </div>
+    </div>
+    <section id="container">
+        <div id="options">
+            <div class="bodyleft">
+                <img src="https://cdn-icons-png.flaticon.com/512/20/20176.png" alt="">
+                <div>Home</div>
+            </div>
+            <div class="bodyleft">
+                <img src="https://cdn-icons-png.flaticon.com/512/7887/7887862.png" alt="">
+                <div>Shorts</div>
+            </div>
+            <div class="bodyleft">
+                <img src="https://cdn-icons-png.flaticon.com/512/2989/2989849.png" alt="">
+                <div>Subscriptions</div>
+            </div>
+            <div class="bodyleft">
+                <img src="https://cdn-icons-png.flaticon.com/512/2989/2989835.png" alt="">
+                <div>Library</div>
+            </div>
+            <div class="bodyleft">
+                <img src="https://cdn-icons-png.flaticon.com/512/2961/2961948.png" alt="">
+                <div>History</div>
+            </div>
+            <div class="bodyleft">
+                <img src="https://cdn-icons-png.flaticon.com/512/2991/2991195.png" alt="">
+                <div>Your Videos</div>
+            </div>
+            <div class="bodyleft">
+                <img src="https://cdn.icon-icons.com/icons2/1369/PNG/512/-watch-later_90421.png" alt="">
+                <div>Watch later</div>
+            </div>
+            <div class="bodyleft">
+                <img src="https://cdn.icon-icons.com/icons2/1339/PNG/512/downarrow_87468.png" alt="">
+                <div>Show more</div>
+            </div>
+
+            <!-- <hr> -->
+
+        </div>
+        <div id="videos"></div>
+    </section>
+</body>
+
+</html>
+<script src="index.js"></script>
